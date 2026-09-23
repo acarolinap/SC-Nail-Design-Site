@@ -712,8 +712,8 @@
   const MENSAGEM_WHATSAPP = "Olá, gostaria de agendar para fazer um alongamento";
 
   function abrirWhatsapp(){
-    const url = "https://wa.me/+5548984153871";
-    window.open(url, "_blank");
+  const url = "https://wa.me/" + NUMERO_WHATSAPP + "?text=" + encodeURIComponent(MENSAGEM_WHATSAPP);
+  window.open(url, "_blank");
   }
 
   // menu mobile simples
