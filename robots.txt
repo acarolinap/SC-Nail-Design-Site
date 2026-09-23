@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://COLOQUE-AQUI-O-DOMINIO-FINAL/sitemap.xml
